@@ -1,0 +1,47 @@
+clearCanvas()
+rydder canvas, mest brugt til debugging og test lige nu. 23/8
+
+yadaFade()
+får små logoer til at blinke og fade ud, på random steder.
+
+wavesVert()     -- passer sammen med lines45
+vertikale (top til bund) zigzag striber
+
+wavesHori()     -- passer sammen med lines135
+Horisontale (venstre til højre) zigzag striber
+
+linesVert()
+vertikale (top til bund) linjer
+
+linesHori()
+Horisontale (venstre til højre) linjer
+
+lines45()
+Skrå linjer fra venstre/top til højre/bund
+
+lines135()
+Skrå linjer fra venstre/bund til højre/top
+
+lines45merge()
+Skrå linjer fra venstre/top til højre/bund, der udfyldes ved at linjerne bliver bredere
+
+lines135merge()
+Skrå linjer fra venstre/bund til højre/top, der udfyldes ved at linjerne bliver bredere
+
+lines45split()
+Sort canvas der afløses af skrå linjer fra venstre/top til højre/bund, ved at linjerne bliver smallere
+
+lines135split()
+Sort canvas der afløses af skrå linjer fra venstre/bund til højre/top, ved at linjerne bliver smallere
+
+lines45fill()
+Skrå linjer fra venstre/top til højre/bund, der udfyldes ved at flere linjer bliver "kørt" ind, skiftevis fra top mod bund, og fra bund mod top
+
+lines135fill()
+Skrå linjer fra venstre/bund til højre/top, der udfyldes ved at flere linjer bliver "kørt" ind, skiftevis fra top mod bund, og fra bund mod top
+
+lines45drain()
+Skrå linjer fra venstre/top til højre/bund, der tømmes ved at flere hvide linjer bliver "kørt" ind, skiftevis fra top mod bund, og fra bund mod top
+
+lines135drain()
+Skrå linjer fra venstre/bund til højre/top, der tømmes ved at flere hvide linjer bliver "kørt" ind, skiftevis fra top mod bund, og fra bund mod top

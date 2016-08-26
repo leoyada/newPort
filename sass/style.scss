@@ -1,0 +1,108 @@
+.font {
+    font-family: "mr-eaves-modern",sans-serif;
+}
+
+.boxsize {
+    box-sizing: border-box;
+    ms-box-sizing: border-box;
+    webkit-box-sizing: border-box;
+    moz-box-sizing: border-box;
+}
+
+$graa: #d1d1d1;
+
+body {
+    margin: 0;
+    padding: 0;
+    //background-color: $graa;
+}
+
+#workCont {
+    height: 450px;
+    width: 800px;
+    position: absolute;
+    z-index: -5;
+    left: 50%;
+    top: 45%;
+    margin: -225px auto auto -400px;
+    
+    #ricks img, #pwr img{
+        width: 300px;
+    }
+}
+
+#imgCont {
+    height: 450px;
+    width: 800px;
+    background-color: black;
+    //background-image: url(../images/stripes45.png);
+    position: absolute;
+    z-index: -5;
+    left: 50%;
+    top: 45%;
+    margin: -225px auto auto -400px;
+    
+    @extend .boxsize;
+    padding: 0px;
+    
+    #yadaTight {
+        display: none;
+        float: right;
+        position: relative;
+        top: 25%;
+        //visibility: hidden;
+    }
+    
+    .yadaSmall {
+        height: 15%;
+        padding-left: 10px;
+    }
+    
+    .yadaFade {
+        position: absolute;
+    }
+
+    .fade_1 {
+        left: 50%;
+        top: 40%;
+    }
+    
+    .fade_2 {
+        left: 40%;
+        top: 40%;
+    }
+    
+    .fade_3 {
+        left: 50%;
+        top: 40%;
+    }
+
+    img:first-child {
+        
+    }
+}
+
+#myCanvas {
+    position: absolute;
+    z-index: -4;
+    background-color: #FFF;
+}
+
+#nav {
+    position: absolute;
+    width: 800px;
+    top: 45%;
+    left: 50%;
+    margin: 225px auto auto -400px;
+    @extend .font;
+    
+    ul {
+        padding: 0 0 0 10px;
+        
+        li {
+            padding-right: 20px;
+            list-style: none;
+            display: inline-block;
+        }   
+    }
+}
